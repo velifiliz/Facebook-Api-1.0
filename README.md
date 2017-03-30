@@ -11,9 +11,11 @@
 
 
 1. Metodumuz
+
 f.SharedFeed("Merhaba Dünya");
 
 2.Metodumuz
+
 //byte[] img = File.ReadAllBytes(Server.MapPath("~\\Images\\facebook.jpg")); // Web Form
 
 byte[] img = File.ReadAllBytes("C:\\1.jpg"); //Win Form
@@ -22,4 +24,5 @@ f.SharedPhoto(img,"deneme deneme");
 
 
 3.Metodumuz
+
 f.SharedPage("http://www.test.com", "http://www.test.com/page.jpg", "Test İnternet Sayfası","Caption text","Description Text");
